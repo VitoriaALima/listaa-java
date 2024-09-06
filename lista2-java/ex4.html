@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+<script>
+    
+    var lista = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
+    var vogais = ["a", "e", "i", "o", "u"]
+    var consoantes = []
+
+    for (posicao in lista){
+        if (vogais.includes(lista[posicao]) == false) {
+            consoantes.push(lista[posicao])
+        }
+    }
+
+    alert('Consoantes: '+consoantes)
+    alert('Quantidade de consoantes lidas: '+consoantes.length)
+     
+</script>
+
+
+</head>
+<body>
+</body>
+</html>
